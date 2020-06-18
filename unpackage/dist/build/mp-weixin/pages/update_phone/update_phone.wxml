@@ -1,0 +1,1 @@
+<view><form data-event-opts="{{[['submit',[['phoneSubmit',['$event']]]]]}}" bindsubmit="__e"><view class="cu-form-group solid-top"><view class="title text-center">手机</view><input class="uni-input" type="number" name="phone" placeholder="请填写正确的手机号" value="{{phone}}"/></view><button class="bg-green sm" form-type="submit" disabled="{{logining}}">保存</button></form></view>

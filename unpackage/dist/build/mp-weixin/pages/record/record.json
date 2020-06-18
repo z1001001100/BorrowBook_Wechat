@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "借阅记录",
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "uni-card": "/components/uni-card/uni-card"
+  }
+}

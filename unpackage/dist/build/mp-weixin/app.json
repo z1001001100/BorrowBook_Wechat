@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/wxlogin/wxlogin",
+    "pages/login/login",
+    "pages/user_detail/user_detail",
+    "pages/update_mail/update_mail",
+    "pages/update_phone/update_phone",
+    "pages/update_pwd/update_pwd",
+    "pages/search_result/search_result",
+    "pages/test/test",
+    "pages/borrow/borrow",
+    "pages/return_book/return_book",
+    "pages/article/article",
+    "pages/record/record",
+    "pages/barcode/barcode"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7a7e83",
+    "selectedColor": "#515151",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/books.png",
+        "selectedIconPath": "static/img/books_select.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/user_select.png"
+      }
+    ]
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,9 @@
+
+.card_img {
+		width: 120rpx;
+		height: 60px;
+		
+		/* color: #007AFF; */
+}
+	
+

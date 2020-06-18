@@ -1,0 +1,1 @@
+<view class="container flex-direction"><view class="text-center text-sl padding bg-white solid-bottom">登录</view><button class="cu-btn line-green lg round padding" style="width:100%;" open-type="getUserInfo" disabled="{{logining}}" data-event-opts="{{[['getuserinfo',[['wxLogin',['$event']]]]]}}" bindgetuserinfo="__e">微信授权登录</button></view>
